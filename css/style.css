@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+
+.part-1{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.round{
+    border-radius: 20px;
+}
+
+.roundp{
+    box-shadow: 4px 4px 13px 0rem hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);
+}
+
+.roundp:hover{
+    background-color: hsl(233deg, 87%, 75%);
+}
+
+.rounds{
+    box-shadow: 4px 4px 13px 0rem hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+}
+
+.rounds:hover{
+    background-color: hsl(171deg, 59%, 67%);
+}
+
+.computer{
+    margin-left: -3rem;
+}
+
+.margin-top{
+    margin-top: 8rem;
+}
+
+footer{
+    background-color: hsl(0, 0%, 98%);;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:  hsl(171, 66%, 44%);
+}
+
+@media screen and (max-width:375px){
+
+    .part-1{
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .computer{
+        margin-left: auto;
+    }
+
+    .margin-top{
+        margin-top: 5rem;
+    }
+    
+}
